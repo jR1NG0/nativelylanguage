@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'index')}">
+
+<body>
+
+<div class="jumbotron text-center">
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/lang-logo.png">
+    </a>
+    <h1>Sitio en construcción with Java on Heroku</h1>
+    <p>This is a sample Java application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
+    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-java"><span class="glyphicon glyphicon-flash"></span> Getting Started with Java</a>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/java-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+  </div>
+</div>
+
+<div class="bgded overlay" style="background-image:url('images/demo/gallery/Natively.png');"> 
+  <div id="pageintro" class="hoc clear">
+      <div class="flexslider basicslider"> 
+        <!-- ################################################################################################ -->
+        <ul class="slides">
+          <li>
+            <article>
+              <p class="heading">Commodo sodales donec aliquet</p>
+              <h2 class="heading">Justo vitae placerat</h2>
+              <p>Quisque vitae dolor quam duis pharetra erat ligula eleifend</p>
+              <footer><a class="btn" href="#">Ullamcorper</a></footer>
+            </article>
+          </li>
+          <li>
+            <article>
+              <p class="heading">Pulvinar viverra sapien praesent</p>
+              <h2 class="heading">Tristique mauris eget</h2>
+              <p>Porttitor nisi aliquet in nunc consectetur pharetra volutpat</p>
+              <footer><a class="btn" href="#">Porttitor</a></footer>
+            </article>
+          </li>
+          <li>
+            <article>
+              <p class="heading">Vivamus suscipit neque id odio</p>
+              <h2 class="heading">Venenatis tellus varius</h2>
+              <p>Est aliquam id porta metus suspendisse commodo odio nulla eget</p>
+              <footer><a class="btn" href="#">Vestibulum</a></footer>
+            </article>
+          </li>
+        </ul>
+        <!-- ################################################################################################ -->
+      </div>
+    </div>
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+      
+    <div id="introblocks" class="hoc clear">
+    <ul class="nospace">
+      <!-- ################################################################################################ -->
+      <li>
+        <div><i class="fa fa-3x fa-clock-o"></i>
+          <h4 class="heading">Our business hours</h4>
+          <p>08.00 - 18.30 / Mon. - Fri.</p>
+        </div>
+      </li>
+      <li>
+        <div><i class="fa fa-3x fa-phone"></i>
+          <h4 class="heading">Our call centre</h4>
+          <p>(+569) 71539710</p>
+        </div>
+      </li>
+      <li>
+        <div><i class="fa fa-3x fa-envelope-o"></i>
+          <h4 class="heading">Send us a mail</h4>
+          <p>mia.macadam@gmail.com</p>
+        </div>
+      </li>
+      <!-- ################################################################################################ -->
+    </ul>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+
+
+
+<div class="wrapper row4">
+  <footer id="footer" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <div class="one_third first">
+      <h6 class="heading">Vitae commodo praesent</h6>
+      <ul class="nospace btmspace-30 linklist contact">
+        <li><i class="fa fa-map-marker"></i>
+          <address>
+          Street Name &amp; Temuco, Postcode/Zip
+          </address>
+        </li>
+        <li><i class="fa fa-phone"></i> +56971539710</li>
+        <li><i class="fa fa-envelope-o"></i> mia.macadam@gmail.com </li>
+      </ul>
+      <ul class="faico clear">
+        <li><a class="faicon-facebook" href="https://www.facebook.com/nativelyenglish/"><i class="fa fa-facebook"></i></a></li>
+        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a class="faicon-vk" href="#"><i class="fa fa-vk"></i></a></li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Laoreet diam non tempus</h6>
+      <ul class="nospace linklist">
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Lacus dui bibendum ut</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
+            <p class="nospace">Turpis cum sociis natoque penatibus et magnis dis parturient montes&hellip;</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h2 class="nospace font-x1"><a href="#">Felis at malesuada facilisis</a></h2>
+            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
+            <p class="nospace">Nascetur ridiculus mus integer feugiat pulvinar leo ut sodales quam&hellip;</p>
+          </article>
+        </li>
+      </ul>
+    </div>
+    <div class="one_third">
+      <h6 class="heading">Convallis cum natoque</h6>
+      <p class="nospace btmspace-30">Penatibus et magnis dis parturient montes nascetur ridiculus curabitur.</p>
+      <form method="post" action="#">
+        <fieldset>
+          <legend>Newsletter:</legend>
+          <input class="btmspace-15" type="text" value="" placeholder="Name">
+          <input class="btmspace-15" type="text" value="" placeholder="Email">
+          <button type="submit" value="submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  
+  </footer>
+</div>
+
+
+</body>
+</html>
